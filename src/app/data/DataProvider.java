@@ -7,7 +7,7 @@ public class DataProvider {
 
     public List<Product> getData() {
 
-        List<> list = new ArrayList<>();
+        List<Product> list = new ArrayList<>();
 
         list.add(new Product("apple", 1.29));
         list.add(new Product("plum", 1.79));

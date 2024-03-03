@@ -29,6 +29,7 @@ public class App {
 
     private static void getOutput(List<Product> list) {
 
+        AtomicInteger count = new AtomicInteger(1);
         System.out.print("Initial data:\n");
 
         for (Product product : list)
